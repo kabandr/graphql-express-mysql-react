@@ -3,5 +3,5 @@
 - React
 - TypeScript
 - Express
-- GraphQL
+- GraphQL / Apollo Client
 - MySQL
