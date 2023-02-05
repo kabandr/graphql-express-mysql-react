@@ -15,5 +15,14 @@ services:
     volumes:
       - data:/var/lib/mysql
 
+  api:
+    container_name: api
+    build: 
+      context: ./server
+    ports:
+      - '3001:3001'
+    depends_on:
+      - db
+
 volumes:
   data:
