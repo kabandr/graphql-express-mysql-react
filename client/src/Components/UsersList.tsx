@@ -7,7 +7,7 @@ function UsersList() {
         <>
         <h2>Users List</h2>
         {data && data.getAllUsers.map((user: any) => {
-            return <div>{user.name} / {user.username} hello</div>
+            return <div>{user.name} / {user.username}</div>
         })}
         </>
     )

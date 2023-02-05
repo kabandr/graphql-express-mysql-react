@@ -1,4 +1,3 @@
-import './App.css';
 import CreateUser from './Components/CreateUser';
 import UsersList from './Components/UsersList';
 
